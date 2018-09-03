@@ -5,11 +5,12 @@ cache busting token string to your hyperlinked resource, such as a stylesheet or
 
 ## Usage
 
-    $fileService = new FileService('/var/mysite/public');
+    $fileService = new FileService('/var/mysite/public/');
     $tokenType = new ResourceSizeHashToken();
     
     $queryStringBuster = new QueryStringBuster($tokenType, $fileService);
     
     $queryStringBuster->modifyResourcePath('css/stylesheet.min.css');
  
-Will output: `css/stylesheet.min.css?token=<token>`
+Will output: `css/stylesheet.min.css?token=...` with a token generated based on file size hash, which will then
+change every time the file itself gets updated.
