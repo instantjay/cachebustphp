@@ -2,12 +2,12 @@
 
 namespace cachebustphp\Tests;
 
-use cachebustphp\Services\FileService;
+use instantjay\cachebustphp\Services\FileService;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\File\File;
 use Mockery;
-use cachebustphp\ResourceSizeHashToken;
-use cachebustphp\QueryStringBuster;
+use instantjay\cachebustphp\ResourceSizeHashToken;
+use instantjay\cachebustphp\QueryStringBuster;
 
 class QueryStringBusterTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace cachebustphp;
+namespace instantjay\cachebustphp;
 
-use cachebustphp\Services\FileService;
+use instantjay\cachebustphp\Services\FileService;
 
 /**
  * Appends a query string to the resource URI with a cache busting token in it.

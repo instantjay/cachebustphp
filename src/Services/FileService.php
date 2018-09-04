@@ -1,6 +1,6 @@
 <?php
 
-namespace cachebustphp\Services;
+namespace instantjay\cachebustphp\Services;
 
 use Symfony\Component\HttpFoundation\File\File;
 

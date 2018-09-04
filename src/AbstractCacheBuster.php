@@ -1,8 +1,8 @@
 <?php
 
-namespace cachebustphp;
+namespace instantjay\cachebustphp;
 
-use cachebustphp\Services\FileService;
+use instantjay\cachebustphp\Services\FileService;
 
 abstract class AbstractCacheBuster implements CacheBusterInterface
 {
