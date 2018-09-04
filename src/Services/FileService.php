@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace cachebustphp\Services;
 
 use Symfony\Component\HttpFoundation\File\File;
 

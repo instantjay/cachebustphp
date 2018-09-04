@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace cachebustphp;
 
-use App\Services\FileService;
+use cachebustphp\Services\FileService;
 
 /**
  * Appends a query string to the resource URI with a cache busting token in it.

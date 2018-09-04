@@ -1,9 +1,10 @@
 <?php
 
-namespace App;
+namespace cachebustphp\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\File\File;
+use cachebustphp\ResourceSizeHashToken;
 
 class ResourceSizeHashTest extends TestCase {
     protected $validFile;

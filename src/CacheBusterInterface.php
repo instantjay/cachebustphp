@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace cachebustphp;
 
-use App\Services\FileService;
+use cachebustphp\Services\FileService;
 
 interface CacheBusterInterface
 {

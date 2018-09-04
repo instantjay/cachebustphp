@@ -1,11 +1,13 @@
 <?php
 
-namespace App;
+namespace cachebustphp\Tests;
 
-use App\Services\FileService;
+use cachebustphp\Services\FileService;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\File\File;
 use Mockery;
+use cachebustphp\ResourceSizeHashToken;
+use cachebustphp\QueryStringBuster;
 
 class QueryStringBusterTest extends TestCase
 {
