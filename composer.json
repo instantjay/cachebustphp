@@ -3,7 +3,7 @@
     "description": "Small library for cache busting your hyperlinked resources",
     "type": "library",
     "require": {
-        "php": ">=5.6",
+        "php": ">5.6",
         "symfony/filesystem": "^4.1",
         "symfony/finder": "^4.1",
         "symfony/http-foundation": "^4.1"
